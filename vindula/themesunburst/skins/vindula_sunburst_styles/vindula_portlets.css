@@ -1,0 +1,18 @@
+/* 
+ * * * VINDULA PORTLETS * * *
+ */
+
+dl.portlet .aling-right { text-align:right; }
+dl.portlet .info_boxTipo2 { margin: 5px 0 0; }
+dl.portlet #busca-portlet h4 { font-size: 14px; }
+
+dl.portlet .borderDif {
+    border-bottom: 1px dotted #959595;
+    padding: 0 0 10px;
+}
+
+/* Portlet Ramais */
+dl.portlet form#portlet-ramais h4 { margin: 5px 0; }
+dl.portlet form#portlet-ramais select { margin-bottom: 10px; }
+
+

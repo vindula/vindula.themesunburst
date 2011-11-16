@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<object name="portal_skins" allow_any="False" cookie_persistence="False" 
+	    request_varname="plone_skin" meta_type="Plone Skins Tool">
+
+ <object name="vindula_sunburst_images"
+    meta_type="Filesystem Directory View"
+    directory="vindula.themesunburst:skins/vindula_sunburst_images"/>
+	
+ <object name="vindula_sunburst_scripts"
+    meta_type="Filesystem Directory View"
+    directory="vindula.themesunburst:skins/vindula_sunburst_scripts"/>	
+
+ <object name="vindula_sunburst_styles"
+    meta_type="Filesystem Directory View"
+    directory="vindula.themesunburst:skins/vindula_sunburst_styles"/>	
+
+ <skin-path name="*">
+ 	
+  <layer name="vindula_sunburst_images"
+     insert-after="custom"/>
+	 
+  <layer name="vindula_sunburst_scripts"
+     insert-after="vindula_sunburst_images"/>	
+	  
+  <layer name="vindula_sunburst_styles"
+     insert-after="vindula_sunburst_scripts"/>		 
+	 
+ </skin-path>
+
+</object>
