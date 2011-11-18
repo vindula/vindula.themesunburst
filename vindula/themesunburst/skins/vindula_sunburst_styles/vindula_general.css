@@ -42,3 +42,20 @@ body.portaltype-vindula-content-content-vindulanews .titulo_info h2,
 }
  /* Vindula News Item... end */
 
+
+/* Photo User portlets */
+div#boxPortlet div.row {
+	float: none;
+	height: 85px;
+}
+div.portlet-birthday div#boxPortlet div.row {
+	height: 50px;
+}
+div.portlet-user-image {
+	float:left;
+    width: 50px;
+	height: 100%;
+}
+div.portlet-user-info {
+	float:left;
+}
