@@ -1,0 +1,44 @@
+/* 
+ * * * DIVERSOS * * *
+ */
+
+/* Control Panel View */
+div.controlpanel-links div { margin-top: 10px; }
+div.controlpanel-links div img { margin-right: 10px; }
+div.controlpanel-links div a { vertical-align: super; }
+
+ /* Vindula News Item... start */
+.info_data h4, .descricao_titulo h4 { color: #205C90 }
+.info_data { font-size: 10px; }
+.descricao_titulo h4 { font-size: 12.5px; }
+
+body.portaltype-vindula-content-content-vindulanews .titulo_info h2,
+.opcao1, 
+.opcao1 div { 
+	float:right; 
+}
+.opcao1 h4 {
+	float:left;
+	margin-right:10px;
+	color: #205C90;
+	font-size: 12px;
+}
+.descricao_titulo p {
+    color: #666666;
+    font: bold 15.5px "Helvetica Neue",Arial,FreeSans,sans-serif;
+}
+.opcoes_noticia {
+    border-top: 1px dotted #959595;
+    margin: 15px 0 10px 0;
+    padding: 10px 0 0;
+	width:100%;
+	*margin: 15px 0 0px 0;
+}
+.img_info {
+    float: left;
+    margin: 0 15px 15px 0;
+    padding: 3px;
+    text-align: center;
+}
+ /* Vindula News Item... end */
+

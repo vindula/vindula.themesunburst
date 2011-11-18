@@ -2,9 +2,9 @@
 
 <object name="portal_javascripts">
 
- <!--javascript
-    id="accesstage_config.js"
+ <javascript
+    id="vindula_themesunburst.js"
     cacheable="False" compression="safe" cookable="False"
-    enabled="True" expression=""  inline="False"/-->
+    enabled="True" expression=""  inline="False"/>
 
 </object>
