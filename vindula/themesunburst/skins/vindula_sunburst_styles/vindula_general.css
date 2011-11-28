@@ -12,7 +12,9 @@ div.controlpanel-links div a { vertical-align: super; }
 .info_data { font-size: 10px; }
 .descricao_titulo h4 { font-size: 12.5px; }
 
-body.portaltype-vindula-content-content-vindulanews .titulo_info h2,
+body.portaltype-vindula-content-content-vindulanews #content h1#parent-fieldname-title {
+	display: none;
+}
 .opcao1, 
 .opcao1 div { 
 	float:right; 

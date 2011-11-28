@@ -1,5 +1,5 @@
 /* 
- * * * MY VINDULA USER VIEW * * *
+ * * * MY VINDULA LIST USER VIEW * * *
  */
 
 
@@ -7,7 +7,6 @@
 	color: #000000;
 	margin-bottom: 10px;
 }
-
 .userpage div.department {
     background-color: #205C90;
     clear: both;
@@ -18,7 +17,6 @@
 	margin-bottom: 20px;
     width: 100%;
 }
-
 .userpage div.department span {
     color: #FFFFFF;
     font-weight: bold;
@@ -26,49 +24,41 @@
     margin-left: 10px;
     text-transform: uppercase;
 }
-
 .userpage #personal {
 	height: 153px;
     width: 662px;
  	margin-bottom: 20px;
 }
-
 .userpage #personal #photo {
 	float: left;
     width: 165px;
 }
-
 .userpage #personal #photo img {
 	border: 2px solid #999999;
     width: 125px;
    	height: 149px;
 }
-
 .userpage #personal #data {
 	float: left;
     width: 497px;
 }
-
 .userpage #send-mail {
     float: right;
     font-weight: bold;
     margin-right: 11px;
 }
-
 .userpage img.type-info {
 	float: left;
     height: 100px;
 	margin: 10px 45px 0 20px;
     width: 100px;
 }
-
 .userpage img.type-action {
 	cursor:pointer;
     height: 25px;
     margin: 0 10px 15px;
     width: 25px;
 }
-
 .userpage div.area {
     border-bottom: 2px solid #205C90;
     font-size: 14px;
@@ -77,11 +67,9 @@
     margin-left: 0;
     width: 652px;
 }
-
 .userpage #data div.area {
 	width: 487px;
 }
-
 .userpage #buttons {
 	margin-left: 5px;
     text-align: right;
@@ -93,7 +81,6 @@
 	border-bottom: 2px solid #999999;
     border-top: 2px solid #999999;
 }
-
 .userpage table td {
 	width: 228px;
 	border: 1px solid #999999;
@@ -101,4 +88,30 @@
     padding: 2px 7px 2px;
 	background-image: url("back_td.jpg");
 	background-repeat: repeat-x;
+}
+
+
+/* 
+ * * * MY VINDULA LIST ALL VIEW * * *
+ */
+
+.userlist {
+	float: left;
+	margin-bottom: 30px;
+}
+.userlist div.user {
+	float:left;
+	text-align: center;
+	width: 140px;
+	height: 110px;
+	margin: 12px;
+} 
+.userlist div.user img {
+	border: 1px solid #CCCCCC;
+	height: 89px;
+	width: 65px;
+}
+.userlist h2.h2title {
+	color: #000000;
+	margin-bottom: 10px;
 }
