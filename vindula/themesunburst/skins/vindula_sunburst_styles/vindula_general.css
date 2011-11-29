@@ -2,6 +2,8 @@
  * * * DIVERSOS * * *
  */
 
+.display-none{display:none;}
+
 /* Control Panel View */
 div.controlpanel-links div { margin-top: 10px; }
 div.controlpanel-links div img { margin-right: 10px; }
