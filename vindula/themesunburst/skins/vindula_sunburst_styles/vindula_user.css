@@ -10,7 +10,7 @@
 .userpage div.department {
     background-color: #205C90;
     clear: both;
-    height: 10px;
+    height: 20px;
   	padding-top: 1px;
 	*padding-top: 0;
 	*padding-bottom: 3px;
@@ -87,13 +87,37 @@
     font-size: 15px;
     padding: 2px 7px 2px;
 	background-image: url("back_td.jpg");
-	background-repeat: repeat;
+	background-repeat: repeat-x;
+	background-position: center bottom;
 }
 
 
 div#howareu,
 div#perfil {
 	margin-top: 35px;
+}
+
+
+/* 
+ * * * MY VINDULA BIRTHDAYS * * *
+ */
+
+.userpage table#birthdays {
+	max-width:100%;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.userpage table#birthdays td.value {
+	font-weight: bolder;
+	text-align: center;
+	padding: 5px;
+	font-size: 14px;
+}
+
+.userpage table#birthdays td.field a {
+	font-weight: bolder;
+	font-size: 12px;
 }
 
 
