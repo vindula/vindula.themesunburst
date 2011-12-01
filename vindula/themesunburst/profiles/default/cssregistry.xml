@@ -8,12 +8,6 @@
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""/>	  
 	
- <stylesheet title="vindula_user.css"
-    id="vindula_user.css"
-    media="screen" rel="stylesheet" rendering="import"
-    cacheable="True" compression="safe" cookable="True"
-    enabled="1" expression=""/>	  
-	
  <stylesheet title="vindula_general.css"
     id="vindula_general.css"
     media="screen" rel="stylesheet" rendering="import"
